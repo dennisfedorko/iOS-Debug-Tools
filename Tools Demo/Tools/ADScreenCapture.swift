@@ -16,7 +16,7 @@ class ADScreenCapture: UIView {
 	{
 		super.init(frame:frame)
 		viewController = rootViewController
-		self.userInteractionEnabled = false
+		userInteractionEnabled = false
 
 		let screenBounds = UIScreen.mainScreen().bounds
 		let screenScale = UIScreen.mainScreen().scale
@@ -39,6 +39,4 @@ class ADScreenCapture: UIView {
 	required init?(coder aDecoder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}
-
-	
 }

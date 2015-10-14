@@ -25,23 +25,24 @@ class SubmitBugViewController: UIViewController {
         let titleLabel = UILabel(frame: CGRectMake(0, 20, view.frame.width, 30))
         titleLabel.text = "Submit Bug Report"
         titleLabel.textAlignment = NSTextAlignment.Center
-        self.view.addSubview(titleLabel)
+        view.addSubview(titleLabel)
         
         //create cancel button to dismiss but submittion form
         let cancelButton = UIButton(frame: CGRectMake(0, 20, 80, 30))
         cancelButton.setTitle("Cancel", forState: UIControlState.Normal)
         cancelButton.setTitleColor(UIColor(red:0.0, green:122.0/255.0, blue:1.0, alpha:1.0), forState: UIControlState.Normal)
         cancelButton.addTarget(self, action: Selector("cancel"), forControlEvents: UIControlEvents.TouchDown)
-        self.view.addSubview(cancelButton)
+        view.addSubview(cancelButton)
         
         //create submit button to send bug report to slack
         let submitButton = UIButton(frame: CGRectMake(view.frame.width - 80 , 20, 80, 30))
         submitButton.setTitle("Submit", forState: UIControlState.Normal)
         submitButton.setTitleColor(UIColor(red:0.0, green:122.0/255.0, blue:1.0, alpha:1.0), forState: UIControlState.Normal)
         submitButton.addTarget(self, action: Selector("submitBug"), forControlEvents: UIControlEvents.TouchDown)
-        self.view.addSubview(submitButton)
+        view.addSubview(submitButton)
     }
     
+    //initialize using this method to create a message without a screenshot
     init(channel:String, token:String, username:String) {
         super.init(nibName: nil, bundle: nil)
         self.channel = channel
@@ -49,6 +50,7 @@ class SubmitBugViewController: UIViewController {
         self.username = username
     }
     
+    //initialize using this method to create a message with a screenshot
     init(screenshot:UIImage, channel:String, token:String, username:String) {
         super.init(nibName: nil, bundle: nil)
         self.channel = channel
@@ -120,10 +122,13 @@ class SubmitBugViewController: UIViewController {
             "initial_comment": textView.text as String
         ]
         
+        //represent screenshot as jpeg image data
         let imageData =  UIImageJPEGRepresentation(screenshot!, 0.7) as NSData!
     
+        //create multipart/form-data request with slack api url, parameters, and the image data to be uploaded
         makeMultipartFormDataRequest(NSURL(string: "https://slack.com/api/files.upload?")!, parameters: parameters, data: imageData)
         
+        //after request is sent we can dismiss view controller
         dismissViewControllerAnimated(true, completion: nil)
     }
     
@@ -166,6 +171,7 @@ class SubmitBugViewController: UIViewController {
     }
 
     func cancel() {
+        //cancel button was pressed, remove screenshot submission form from view hierarchy
         dismissViewControllerAnimated(true, completion: nil)
     }
 }
