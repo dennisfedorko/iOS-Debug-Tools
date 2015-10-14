@@ -1,6 +1,8 @@
 # iOS-Debug-Tools
 A simple shake-gesture initiated UIAlertController Action Sheet that provides easy access for developers to submit bug reports (including screenshots and written messages) to slack. Tools also supports [Facebook Tweaks](https://github.com/facebook/Tweaks)
 
+![alt text](https://raw.githubusercontent.com/dennisfedorko/iOS-Debug-Tools/master/Tools-Menu.png "Tools Menu Screenshot")
+
 # How To Use
 *See demo project for example of how to use Tools*
 1. Download the `Tools` folder and drag into project.

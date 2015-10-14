@@ -28,7 +28,7 @@ class Tools: UIView, FBTweakViewControllerDelegate {
         rootViewController.view.addSubview(self)
         
         //create UIAlertController to display options on shake gesture
-        popup = UIAlertController(title: "App Dev Tools", message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        popup = UIAlertController(title: "Tools", message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
         
         //create message action option
         let submitMessage = UIAlertAction(title: "Submit Message", style: .Default) { (action) in
