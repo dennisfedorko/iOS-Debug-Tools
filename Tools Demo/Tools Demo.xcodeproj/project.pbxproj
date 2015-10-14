@@ -105,8 +105,8 @@
 		95F80F241BC0FEA500C0FB43 /* Tools Demo */ = {
 			isa = PBXGroup;
 			children = (
-				95F80F251BC0FEA500C0FB43 /* AppDelegate.swift */,
 				95F80F721BC101BE00C0FB43 /* Tools */,
+				95F80F251BC0FEA500C0FB43 /* AppDelegate.swift */,
 				95F80F271BC0FEA500C0FB43 /* ViewController.swift */,
 				95F80FA61BC102C000C0FB43 /* Tools Demo-Bridging-Header.h */,
 				95F80F291BC0FEA500C0FB43 /* Main.storyboard */,
@@ -367,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tools Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DennisFedorko.Tools-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tools Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DennisFedorko.Tools-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
