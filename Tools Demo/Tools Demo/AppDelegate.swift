@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var tools: Tools!
     
     //example slack info
-    let slackChannel = "ABC123"
-    let slackToken = "ABC123"
-    let slackUsername = "Feedback Reporter Bot"
+    let slackChannel = "C04C10672"
+    let slackToken = "xoxp-2342414247-2693337898-4405497914-7cb1a7"
+    let slackUsername = "Keeper of All Your Base"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {

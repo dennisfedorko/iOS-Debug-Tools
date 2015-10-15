@@ -32,14 +32,14 @@ class Tools: UIView, FBTweakViewControllerDelegate {
         
         //create message action option
         let submitMessage = UIAlertAction(title: "Submit Message", style: .Default) { (action) in
-            let vc = SubmitBugViewController(channel: slackChannel, token: slackToken, username: slackUsername)
+            let vc = SubmitBugViewController(toolsController: self, channel: slackChannel, token: slackToken, username: slackUsername)
             self.rootViewController.presentViewController(vc, animated: true, completion: nil)
         }
         popup.addAction(submitMessage)
         
         //create screenshot action option
         let submitScreenshot = UIAlertAction(title: "Submit Screenshot", style: .Default) { (action) in
-            let vc = SubmitBugViewController(screenshot: self.screenCapture.getScreenshot(), channel: slackChannel, token: slackToken, username: slackUsername)
+            let vc = SubmitBugViewController(toolsController: self, screenshot: self.screenCapture.getScreenshot(), channel: slackChannel, token: slackToken, username: slackUsername)
             self.rootViewController.presentViewController(vc, animated: true, completion: nil)
         }
         popup.addAction(submitScreenshot)

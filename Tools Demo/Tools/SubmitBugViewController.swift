@@ -9,6 +9,7 @@ import UIKit
 
 class SubmitBugViewController: UIViewController {
     
+    var toolsController:Tools!
     var screenshot:UIImage?
     var textView:UITextView!
     var channel:String!
@@ -43,16 +44,18 @@ class SubmitBugViewController: UIViewController {
     }
     
     //initialize using this method to create a message without a screenshot
-    init(channel:String, token:String, username:String) {
+    init(toolsController:Tools, channel:String, token:String, username:String) {
         super.init(nibName: nil, bundle: nil)
+        self.toolsController = toolsController
         self.channel = channel
         self.token = token
         self.username = username
     }
     
     //initialize using this method to create a message with a screenshot
-    init(screenshot:UIImage, channel:String, token:String, username:String) {
+    init(toolsController:Tools, screenshot:UIImage, channel:String, token:String, username:String) {
         super.init(nibName: nil, bundle: nil)
+        self.toolsController = toolsController
         self.channel = channel
         self.token = token
         self.username = username
@@ -109,7 +112,9 @@ class SubmitBugViewController: UIViewController {
         task.resume()
         
         //after request is sent we can dismiss view controller
-        dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(true) { () -> Void in
+            self.toolsController.assignFirstResponder()
+        }
     }
     
     func submitScreenshot() {
@@ -129,7 +134,9 @@ class SubmitBugViewController: UIViewController {
         makeMultipartFormDataRequest(NSURL(string: "https://slack.com/api/files.upload?")!, parameters: parameters, data: imageData)
         
         //after request is sent we can dismiss view controller
-        dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(true) { () -> Void in
+            self.toolsController.assignFirstResponder()
+        }
     }
     
     func makeMultipartFormDataRequest (baseURL: NSURL, parameters:[String:String], data:NSData) {
@@ -172,6 +179,9 @@ class SubmitBugViewController: UIViewController {
 
     func cancel() {
         //cancel button was pressed, remove screenshot submission form from view hierarchy
-        dismissViewControllerAnimated(true, completion: nil)
+        textView.endEditing(true)
+        dismissViewControllerAnimated(true) { () -> Void in
+            self.toolsController.assignFirstResponder()
+        }
     }
 }
