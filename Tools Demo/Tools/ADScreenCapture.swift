@@ -21,5 +21,13 @@ class ADScreenCapture: UIView {
         UIGraphicsEndImageContext()
         return screenshot
     }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        userInteractionEnabled = false
+    }
 
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
