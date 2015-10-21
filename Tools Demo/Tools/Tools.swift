@@ -28,7 +28,7 @@ class Tools: UIView, FBTweakViewControllerDelegate {
         rootViewController.view.addSubview(self)
         
         //create UIAlertController to display options on shake gesture
-        popup = UIAlertController(title: "Tools", message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
+        popup = UIAlertController(title: "Tools", message: nil, preferredStyle: .ActionSheet)
         
         //create message action option
         let submitMessage = UIAlertAction(title: "Submit Message", style: .Default) { (action) in
@@ -49,9 +49,9 @@ class Tools: UIView, FBTweakViewControllerDelegate {
             if(!self.displayingTweaks) {
                 self.fbTweaks = FBTweakViewController(store: FBTweakStore.sharedInstance())
                 self.fbTweaks.tweaksDelegate = self
-                self.rootViewController.presentViewController(self.fbTweaks, animated: true, completion: { () -> Void in
+                self.rootViewController.presentViewController(self.fbTweaks, animated: true) {
                     self.displayingTweaks = true
-                })
+                }
             }
         }
         popup.addAction(openTweaks)
@@ -95,10 +95,10 @@ class Tools: UIView, FBTweakViewControllerDelegate {
     }
     
     func tweakViewControllerPressedDone(tweakViewController: FBTweakViewController!) {
-        tweakViewController.dismissViewControllerAnimated(true, completion: { () -> Void in
+        tweakViewController.dismissViewControllerAnimated(true) {
             self.assignFirstResponder()
             self.displayingTweaks = false
-        })
+        }
     }
     
     override func canBecomeFirstResponder() -> Bool {
