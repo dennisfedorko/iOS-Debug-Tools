@@ -7,31 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95DADB4C1BD83EE300419AC8 /* ADScreenCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB2A1BD83EE300419AC8 /* ADScreenCapture.swift */; settings = {ASSET_TAGS = (); }; };
+		95DADB4D1BD83EE300419AC8 /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB2D1BD83EE300419AC8 /* _FBTweakArrayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB4E1BD83EE300419AC8 /* _FBTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB2F1BD83EE300419AC8 /* _FBTweakBindObserver.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB4F1BD83EE300419AC8 /* _FBTweakCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB311BD83EE300419AC8 /* _FBTweakCategoryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB501BD83EE300419AC8 /* _FBTweakCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB331BD83EE300419AC8 /* _FBTweakCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB511BD83EE300419AC8 /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB351BD83EE300419AC8 /* _FBTweakDictionaryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB521BD83EE300419AC8 /* _FBTweakTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB371BD83EE300419AC8 /* _FBTweakTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB531BD83EE300419AC8 /* FBTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB3A1BD83EE300419AC8 /* FBTweak.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB541BD83EE300419AC8 /* FBTweakCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB3C1BD83EE300419AC8 /* FBTweakCategory.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB551BD83EE300419AC8 /* FBTweakCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB3E1BD83EE300419AC8 /* FBTweakCollection.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB561BD83EE300419AC8 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB411BD83EE300419AC8 /* FBTweakInline.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB571BD83EE300419AC8 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB441BD83EE300419AC8 /* FBTweakShakeWindow.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB581BD83EE300419AC8 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB461BD83EE300419AC8 /* FBTweakStore.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB591BD83EE300419AC8 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB481BD83EE300419AC8 /* FBTweakViewController.m */; settings = {ASSET_TAGS = (); }; };
+		95DADB5A1BD83EE300419AC8 /* SubmitBugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB491BD83EE300419AC8 /* SubmitBugViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		95DADB5B1BD83EE300419AC8 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB4A1BD83EE300419AC8 /* Tools.swift */; settings = {ASSET_TAGS = (); }; };
+		95DADB5C1BD83EE300419AC8 /* Tweaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DADB4B1BD83EE300419AC8 /* Tweaks.swift */; settings = {ASSET_TAGS = (); }; };
 		95F80F261BC0FEA500C0FB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F251BC0FEA500C0FB43 /* AppDelegate.swift */; };
 		95F80F281BC0FEA500C0FB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F271BC0FEA500C0FB43 /* ViewController.swift */; };
 		95F80F2B1BC0FEA500C0FB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F80F291BC0FEA500C0FB43 /* Main.storyboard */; };
 		95F80F2D1BC0FEA500C0FB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F80F2C1BC0FEA500C0FB43 /* Assets.xcassets */; };
 		95F80F301BC0FEA500C0FB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F80F2E1BC0FEA500C0FB43 /* LaunchScreen.storyboard */; };
-		95F80F951BC101BE00C0FB43 /* ADScreenCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F731BC101BE00C0FB43 /* ADScreenCapture.swift */; settings = {ASSET_TAGS = (); }; };
-		95F80F961BC101BE00C0FB43 /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F761BC101BE00C0FB43 /* _FBTweakArrayViewController.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F971BC101BE00C0FB43 /* _FBTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F781BC101BE00C0FB43 /* _FBTweakBindObserver.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F981BC101BE00C0FB43 /* _FBTweakCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F7A1BC101BE00C0FB43 /* _FBTweakCategoryViewController.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F991BC101BE00C0FB43 /* _FBTweakCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F7C1BC101BE00C0FB43 /* _FBTweakCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9A1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F7E1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9B1BC101BE00C0FB43 /* _FBTweakTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F801BC101BE00C0FB43 /* _FBTweakTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9C1BC101BE00C0FB43 /* FBTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F831BC101BE00C0FB43 /* FBTweak.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9D1BC101BE00C0FB43 /* FBTweakCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F851BC101BE00C0FB43 /* FBTweakCategory.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9E1BC101BE00C0FB43 /* FBTweakCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F871BC101BE00C0FB43 /* FBTweakCollection.m */; settings = {ASSET_TAGS = (); }; };
-		95F80F9F1BC101BE00C0FB43 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F8A1BC101BE00C0FB43 /* FBTweakInline.m */; settings = {ASSET_TAGS = (); }; };
-		95F80FA01BC101BE00C0FB43 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F8D1BC101BE00C0FB43 /* FBTweakShakeWindow.m */; settings = {ASSET_TAGS = (); }; };
-		95F80FA11BC101BE00C0FB43 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F8F1BC101BE00C0FB43 /* FBTweakStore.m */; settings = {ASSET_TAGS = (); }; };
-		95F80FA21BC101BE00C0FB43 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F911BC101BE00C0FB43 /* FBTweakViewController.m */; settings = {ASSET_TAGS = (); }; };
-		95F80FA31BC101BE00C0FB43 /* SubmitBugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F921BC101BE00C0FB43 /* SubmitBugViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		95F80FA41BC101BE00C0FB43 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F931BC101BE00C0FB43 /* Tools.swift */; settings = {ASSET_TAGS = (); }; };
-		95F80FA51BC101BE00C0FB43 /* Tweaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F80F941BC101BE00C0FB43 /* Tweaks.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95DADB2A1BD83EE300419AC8 /* ADScreenCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADScreenCapture.swift; sourceTree = "<group>"; };
+		95DADB2C1BD83EE300419AC8 /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakArrayViewController.h; sourceTree = "<group>"; };
+		95DADB2D1BD83EE300419AC8 /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakArrayViewController.m; sourceTree = "<group>"; };
+		95DADB2E1BD83EE300419AC8 /* _FBTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakBindObserver.h; sourceTree = "<group>"; };
+		95DADB2F1BD83EE300419AC8 /* _FBTweakBindObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakBindObserver.m; sourceTree = "<group>"; };
+		95DADB301BD83EE300419AC8 /* _FBTweakCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCategoryViewController.h; sourceTree = "<group>"; };
+		95DADB311BD83EE300419AC8 /* _FBTweakCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCategoryViewController.m; sourceTree = "<group>"; };
+		95DADB321BD83EE300419AC8 /* _FBTweakCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCollectionViewController.h; sourceTree = "<group>"; };
+		95DADB331BD83EE300419AC8 /* _FBTweakCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCollectionViewController.m; sourceTree = "<group>"; };
+		95DADB341BD83EE300419AC8 /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
+		95DADB351BD83EE300419AC8 /* _FBTweakDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakDictionaryViewController.m; sourceTree = "<group>"; };
+		95DADB361BD83EE300419AC8 /* _FBTweakTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakTableViewCell.h; sourceTree = "<group>"; };
+		95DADB371BD83EE300419AC8 /* _FBTweakTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakTableViewCell.m; sourceTree = "<group>"; };
+		95DADB381BD83EE300419AC8 /* FBTweak-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTweak-Prefix.pch"; sourceTree = "<group>"; };
+		95DADB391BD83EE300419AC8 /* FBTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweak.h; sourceTree = "<group>"; };
+		95DADB3A1BD83EE300419AC8 /* FBTweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweak.m; sourceTree = "<group>"; };
+		95DADB3B1BD83EE300419AC8 /* FBTweakCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCategory.h; sourceTree = "<group>"; };
+		95DADB3C1BD83EE300419AC8 /* FBTweakCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCategory.m; sourceTree = "<group>"; };
+		95DADB3D1BD83EE300419AC8 /* FBTweakCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCollection.h; sourceTree = "<group>"; };
+		95DADB3E1BD83EE300419AC8 /* FBTweakCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCollection.m; sourceTree = "<group>"; };
+		95DADB3F1BD83EE300419AC8 /* FBTweakEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakEnabled.h; sourceTree = "<group>"; };
+		95DADB401BD83EE300419AC8 /* FBTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInline.h; sourceTree = "<group>"; };
+		95DADB411BD83EE300419AC8 /* FBTweakInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakInline.m; sourceTree = "<group>"; };
+		95DADB421BD83EE300419AC8 /* FBTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInlineInternal.h; sourceTree = "<group>"; };
+		95DADB431BD83EE300419AC8 /* FBTweakShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakShakeWindow.h; sourceTree = "<group>"; };
+		95DADB441BD83EE300419AC8 /* FBTweakShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakShakeWindow.m; sourceTree = "<group>"; };
+		95DADB451BD83EE300419AC8 /* FBTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakStore.h; sourceTree = "<group>"; };
+		95DADB461BD83EE300419AC8 /* FBTweakStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakStore.m; sourceTree = "<group>"; };
+		95DADB471BD83EE300419AC8 /* FBTweakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakViewController.h; sourceTree = "<group>"; };
+		95DADB481BD83EE300419AC8 /* FBTweakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakViewController.m; sourceTree = "<group>"; };
+		95DADB491BD83EE300419AC8 /* SubmitBugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitBugViewController.swift; sourceTree = "<group>"; };
+		95DADB4A1BD83EE300419AC8 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		95DADB4B1BD83EE300419AC8 /* Tweaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweaks.swift; sourceTree = "<group>"; };
 		95F80F221BC0FEA500C0FB43 /* Tools Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tools Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F80F251BC0FEA500C0FB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F80F271BC0FEA500C0FB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,39 +72,6 @@
 		95F80F2C1BC0FEA500C0FB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F80F2F1BC0FEA500C0FB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F80F311BC0FEA500C0FB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95F80F731BC101BE00C0FB43 /* ADScreenCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADScreenCapture.swift; sourceTree = "<group>"; };
-		95F80F751BC101BE00C0FB43 /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakArrayViewController.h; sourceTree = "<group>"; };
-		95F80F761BC101BE00C0FB43 /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakArrayViewController.m; sourceTree = "<group>"; };
-		95F80F771BC101BE00C0FB43 /* _FBTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakBindObserver.h; sourceTree = "<group>"; };
-		95F80F781BC101BE00C0FB43 /* _FBTweakBindObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakBindObserver.m; sourceTree = "<group>"; };
-		95F80F791BC101BE00C0FB43 /* _FBTweakCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCategoryViewController.h; sourceTree = "<group>"; };
-		95F80F7A1BC101BE00C0FB43 /* _FBTweakCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCategoryViewController.m; sourceTree = "<group>"; };
-		95F80F7B1BC101BE00C0FB43 /* _FBTweakCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCollectionViewController.h; sourceTree = "<group>"; };
-		95F80F7C1BC101BE00C0FB43 /* _FBTweakCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCollectionViewController.m; sourceTree = "<group>"; };
-		95F80F7D1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
-		95F80F7E1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakDictionaryViewController.m; sourceTree = "<group>"; };
-		95F80F7F1BC101BE00C0FB43 /* _FBTweakTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakTableViewCell.h; sourceTree = "<group>"; };
-		95F80F801BC101BE00C0FB43 /* _FBTweakTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakTableViewCell.m; sourceTree = "<group>"; };
-		95F80F811BC101BE00C0FB43 /* FBTweak-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTweak-Prefix.pch"; sourceTree = "<group>"; };
-		95F80F821BC101BE00C0FB43 /* FBTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweak.h; sourceTree = "<group>"; };
-		95F80F831BC101BE00C0FB43 /* FBTweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweak.m; sourceTree = "<group>"; };
-		95F80F841BC101BE00C0FB43 /* FBTweakCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCategory.h; sourceTree = "<group>"; };
-		95F80F851BC101BE00C0FB43 /* FBTweakCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCategory.m; sourceTree = "<group>"; };
-		95F80F861BC101BE00C0FB43 /* FBTweakCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCollection.h; sourceTree = "<group>"; };
-		95F80F871BC101BE00C0FB43 /* FBTweakCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCollection.m; sourceTree = "<group>"; };
-		95F80F881BC101BE00C0FB43 /* FBTweakEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakEnabled.h; sourceTree = "<group>"; };
-		95F80F891BC101BE00C0FB43 /* FBTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInline.h; sourceTree = "<group>"; };
-		95F80F8A1BC101BE00C0FB43 /* FBTweakInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakInline.m; sourceTree = "<group>"; };
-		95F80F8B1BC101BE00C0FB43 /* FBTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInlineInternal.h; sourceTree = "<group>"; };
-		95F80F8C1BC101BE00C0FB43 /* FBTweakShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakShakeWindow.h; sourceTree = "<group>"; };
-		95F80F8D1BC101BE00C0FB43 /* FBTweakShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakShakeWindow.m; sourceTree = "<group>"; };
-		95F80F8E1BC101BE00C0FB43 /* FBTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakStore.h; sourceTree = "<group>"; };
-		95F80F8F1BC101BE00C0FB43 /* FBTweakStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakStore.m; sourceTree = "<group>"; };
-		95F80F901BC101BE00C0FB43 /* FBTweakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakViewController.h; sourceTree = "<group>"; };
-		95F80F911BC101BE00C0FB43 /* FBTweakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakViewController.m; sourceTree = "<group>"; };
-		95F80F921BC101BE00C0FB43 /* SubmitBugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitBugViewController.swift; sourceTree = "<group>"; };
-		95F80F931BC101BE00C0FB43 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
-		95F80F941BC101BE00C0FB43 /* Tweaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweaks.swift; sourceTree = "<group>"; };
 		95F80FA61BC102C000C0FB43 /* Tools Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Tools Demo-Bridging-Header.h"; path = "Tools Demo/Tools Demo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -86,6 +86,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95DADB291BD83EE300419AC8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				95DADB2A1BD83EE300419AC8 /* ADScreenCapture.swift */,
+				95DADB2B1BD83EE300419AC8 /* FBTweaks */,
+				95DADB491BD83EE300419AC8 /* SubmitBugViewController.swift */,
+				95DADB4A1BD83EE300419AC8 /* Tools.swift */,
+				95DADB4B1BD83EE300419AC8 /* Tweaks.swift */,
+			);
+			path = Tools;
+			sourceTree = SOURCE_ROOT;
+		};
+		95DADB2B1BD83EE300419AC8 /* FBTweaks */ = {
+			isa = PBXGroup;
+			children = (
+				95DADB2C1BD83EE300419AC8 /* _FBTweakArrayViewController.h */,
+				95DADB2D1BD83EE300419AC8 /* _FBTweakArrayViewController.m */,
+				95DADB2E1BD83EE300419AC8 /* _FBTweakBindObserver.h */,
+				95DADB2F1BD83EE300419AC8 /* _FBTweakBindObserver.m */,
+				95DADB301BD83EE300419AC8 /* _FBTweakCategoryViewController.h */,
+				95DADB311BD83EE300419AC8 /* _FBTweakCategoryViewController.m */,
+				95DADB321BD83EE300419AC8 /* _FBTweakCollectionViewController.h */,
+				95DADB331BD83EE300419AC8 /* _FBTweakCollectionViewController.m */,
+				95DADB341BD83EE300419AC8 /* _FBTweakDictionaryViewController.h */,
+				95DADB351BD83EE300419AC8 /* _FBTweakDictionaryViewController.m */,
+				95DADB361BD83EE300419AC8 /* _FBTweakTableViewCell.h */,
+				95DADB371BD83EE300419AC8 /* _FBTweakTableViewCell.m */,
+				95DADB381BD83EE300419AC8 /* FBTweak-Prefix.pch */,
+				95DADB391BD83EE300419AC8 /* FBTweak.h */,
+				95DADB3A1BD83EE300419AC8 /* FBTweak.m */,
+				95DADB3B1BD83EE300419AC8 /* FBTweakCategory.h */,
+				95DADB3C1BD83EE300419AC8 /* FBTweakCategory.m */,
+				95DADB3D1BD83EE300419AC8 /* FBTweakCollection.h */,
+				95DADB3E1BD83EE300419AC8 /* FBTweakCollection.m */,
+				95DADB3F1BD83EE300419AC8 /* FBTweakEnabled.h */,
+				95DADB401BD83EE300419AC8 /* FBTweakInline.h */,
+				95DADB411BD83EE300419AC8 /* FBTweakInline.m */,
+				95DADB421BD83EE300419AC8 /* FBTweakInlineInternal.h */,
+				95DADB431BD83EE300419AC8 /* FBTweakShakeWindow.h */,
+				95DADB441BD83EE300419AC8 /* FBTweakShakeWindow.m */,
+				95DADB451BD83EE300419AC8 /* FBTweakStore.h */,
+				95DADB461BD83EE300419AC8 /* FBTweakStore.m */,
+				95DADB471BD83EE300419AC8 /* FBTweakViewController.h */,
+				95DADB481BD83EE300419AC8 /* FBTweakViewController.m */,
+			);
+			path = FBTweaks;
+			sourceTree = "<group>";
+		};
 		95F80F191BC0FEA500C0FB43 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +153,7 @@
 		95F80F241BC0FEA500C0FB43 /* Tools Demo */ = {
 			isa = PBXGroup;
 			children = (
-				95F80F721BC101BE00C0FB43 /* Tools */,
+				95DADB291BD83EE300419AC8 /* Tools */,
 				95F80F251BC0FEA500C0FB43 /* AppDelegate.swift */,
 				95F80F271BC0FEA500C0FB43 /* ViewController.swift */,
 				95F80FA61BC102C000C0FB43 /* Tools Demo-Bridging-Header.h */,
@@ -115,54 +163,6 @@
 				95F80F311BC0FEA500C0FB43 /* Info.plist */,
 			);
 			path = "Tools Demo";
-			sourceTree = "<group>";
-		};
-		95F80F721BC101BE00C0FB43 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				95F80F731BC101BE00C0FB43 /* ADScreenCapture.swift */,
-				95F80F741BC101BE00C0FB43 /* FBTweaks */,
-				95F80F921BC101BE00C0FB43 /* SubmitBugViewController.swift */,
-				95F80F931BC101BE00C0FB43 /* Tools.swift */,
-				95F80F941BC101BE00C0FB43 /* Tweaks.swift */,
-			);
-			path = Tools;
-			sourceTree = SOURCE_ROOT;
-		};
-		95F80F741BC101BE00C0FB43 /* FBTweaks */ = {
-			isa = PBXGroup;
-			children = (
-				95F80F751BC101BE00C0FB43 /* _FBTweakArrayViewController.h */,
-				95F80F761BC101BE00C0FB43 /* _FBTweakArrayViewController.m */,
-				95F80F771BC101BE00C0FB43 /* _FBTweakBindObserver.h */,
-				95F80F781BC101BE00C0FB43 /* _FBTweakBindObserver.m */,
-				95F80F791BC101BE00C0FB43 /* _FBTweakCategoryViewController.h */,
-				95F80F7A1BC101BE00C0FB43 /* _FBTweakCategoryViewController.m */,
-				95F80F7B1BC101BE00C0FB43 /* _FBTweakCollectionViewController.h */,
-				95F80F7C1BC101BE00C0FB43 /* _FBTweakCollectionViewController.m */,
-				95F80F7D1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.h */,
-				95F80F7E1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.m */,
-				95F80F7F1BC101BE00C0FB43 /* _FBTweakTableViewCell.h */,
-				95F80F801BC101BE00C0FB43 /* _FBTweakTableViewCell.m */,
-				95F80F811BC101BE00C0FB43 /* FBTweak-Prefix.pch */,
-				95F80F821BC101BE00C0FB43 /* FBTweak.h */,
-				95F80F831BC101BE00C0FB43 /* FBTweak.m */,
-				95F80F841BC101BE00C0FB43 /* FBTweakCategory.h */,
-				95F80F851BC101BE00C0FB43 /* FBTweakCategory.m */,
-				95F80F861BC101BE00C0FB43 /* FBTweakCollection.h */,
-				95F80F871BC101BE00C0FB43 /* FBTweakCollection.m */,
-				95F80F881BC101BE00C0FB43 /* FBTweakEnabled.h */,
-				95F80F891BC101BE00C0FB43 /* FBTweakInline.h */,
-				95F80F8A1BC101BE00C0FB43 /* FBTweakInline.m */,
-				95F80F8B1BC101BE00C0FB43 /* FBTweakInlineInternal.h */,
-				95F80F8C1BC101BE00C0FB43 /* FBTweakShakeWindow.h */,
-				95F80F8D1BC101BE00C0FB43 /* FBTweakShakeWindow.m */,
-				95F80F8E1BC101BE00C0FB43 /* FBTweakStore.h */,
-				95F80F8F1BC101BE00C0FB43 /* FBTweakStore.m */,
-				95F80F901BC101BE00C0FB43 /* FBTweakViewController.h */,
-				95F80F911BC101BE00C0FB43 /* FBTweakViewController.m */,
-			);
-			path = FBTweaks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,25 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F80F9C1BC101BE00C0FB43 /* FBTweak.m in Sources */,
-				95F80FA01BC101BE00C0FB43 /* FBTweakShakeWindow.m in Sources */,
-				95F80F991BC101BE00C0FB43 /* _FBTweakCollectionViewController.m in Sources */,
-				95F80F9E1BC101BE00C0FB43 /* FBTweakCollection.m in Sources */,
-				95F80F9A1BC101BE00C0FB43 /* _FBTweakDictionaryViewController.m in Sources */,
-				95F80FA21BC101BE00C0FB43 /* FBTweakViewController.m in Sources */,
-				95F80FA31BC101BE00C0FB43 /* SubmitBugViewController.swift in Sources */,
-				95F80FA11BC101BE00C0FB43 /* FBTweakStore.m in Sources */,
-				95F80F9D1BC101BE00C0FB43 /* FBTweakCategory.m in Sources */,
-				95F80F981BC101BE00C0FB43 /* _FBTweakCategoryViewController.m in Sources */,
+				95DADB531BD83EE300419AC8 /* FBTweak.m in Sources */,
+				95DADB571BD83EE300419AC8 /* FBTweakShakeWindow.m in Sources */,
+				95DADB501BD83EE300419AC8 /* _FBTweakCollectionViewController.m in Sources */,
+				95DADB551BD83EE300419AC8 /* FBTweakCollection.m in Sources */,
+				95DADB511BD83EE300419AC8 /* _FBTweakDictionaryViewController.m in Sources */,
+				95DADB591BD83EE300419AC8 /* FBTweakViewController.m in Sources */,
+				95DADB5A1BD83EE300419AC8 /* SubmitBugViewController.swift in Sources */,
+				95DADB581BD83EE300419AC8 /* FBTweakStore.m in Sources */,
+				95DADB541BD83EE300419AC8 /* FBTweakCategory.m in Sources */,
+				95DADB4F1BD83EE300419AC8 /* _FBTweakCategoryViewController.m in Sources */,
 				95F80F281BC0FEA500C0FB43 /* ViewController.swift in Sources */,
-				95F80FA51BC101BE00C0FB43 /* Tweaks.swift in Sources */,
-				95F80F9F1BC101BE00C0FB43 /* FBTweakInline.m in Sources */,
-				95F80F971BC101BE00C0FB43 /* _FBTweakBindObserver.m in Sources */,
-				95F80F9B1BC101BE00C0FB43 /* _FBTweakTableViewCell.m in Sources */,
-				95F80F961BC101BE00C0FB43 /* _FBTweakArrayViewController.m in Sources */,
-				95F80FA41BC101BE00C0FB43 /* Tools.swift in Sources */,
+				95DADB5C1BD83EE300419AC8 /* Tweaks.swift in Sources */,
+				95DADB561BD83EE300419AC8 /* FBTweakInline.m in Sources */,
+				95DADB4E1BD83EE300419AC8 /* _FBTweakBindObserver.m in Sources */,
+				95DADB521BD83EE300419AC8 /* _FBTweakTableViewCell.m in Sources */,
+				95DADB4D1BD83EE300419AC8 /* _FBTweakArrayViewController.m in Sources */,
+				95DADB5B1BD83EE300419AC8 /* Tools.swift in Sources */,
 				95F80F261BC0FEA500C0FB43 /* AppDelegate.swift in Sources */,
-				95F80F951BC101BE00C0FB43 /* ADScreenCapture.swift in Sources */,
+				95DADB4C1BD83EE300419AC8 /* ADScreenCapture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
